@@ -1,0 +1,19 @@
+.wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.friendsList {
+  display: flex;
+  max-width: 640px;
+  gap: 24px;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.friendsListItem {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
